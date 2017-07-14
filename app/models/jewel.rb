@@ -1,4 +1,14 @@
 class Jewel < ApplicationRecord
+  validates :ruby, numericality: {less_than_or_equal_to: 1}
+  validates :diamond, numericality: {less_than_or_equal_to: 2}
+  validates :emerald, numericality: {less_than_or_equal_to: 3}
+  validates :sapphire, numericality: {less_than_or_equal_to: 4}
+  validates :opal, numericality: {less_than_or_equal_to: 5}
+  validates :gold, numericality: {less_than_or_equal_to: 4}
+  validates :silver, numericality: {less_than_or_equal_to: 4}
+  validates :red, numericality: {less_than_or_equal_to: 1}
+  validates :black, numericality: {less_than_or_equal_to: 1}
+
   def self.init
     Jewel.create(
       ruby: 1,

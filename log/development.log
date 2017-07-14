@@ -225,3 +225,108 @@ Completed 204 No Content in 46ms (ActiveRecord: 3.9ms)
   [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "ruby" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["ruby", 0], ["updated_at", "2017-07-10 12:53:14.862383"], ["id", 1]]
   [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2017-07-14 12:59:55 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  Rendered jewels/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 223ms (Views: 213.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:06:30 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  Rendered jewels/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:06:38 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  Rendered jewels/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:06:57 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  [1m[36mJewel Load (0.5ms)[0m  [1m[34mSELECT "jewels".* FROM "jewels"[0m
+  Rendered jewels/index.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:07:01 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  [1m[36mJewel Load (0.2ms)[0m  [1m[34mSELECT "jewels".* FROM "jewels"[0m
+  Rendered jewels/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:07:02 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  [1m[36mJewel Load (0.4ms)[0m  [1m[34mSELECT "jewels".* FROM "jewels"[0m
+  Rendered jewels/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:07:14 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  [1m[36mJewel Load (0.5ms)[0m  [1m[34mSELECT "jewels".* FROM "jewels"[0m
+  Rendered jewels/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-14 13:09:05 +0900
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  Rendered jewels/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jewels/show" for 127.0.0.1 at 2017-07-14 13:09:10 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mJewel Load (0.2ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 16.7ms | ActiveRecord: 0.8ms)
+
+
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Started GET "/jewels/show" for 127.0.0.1 at 2017-07-14 13:11:49 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Jewel:0x007f9fd76f8a78>):
+    1: <% @jewel.each do |j| %>
+    2:   ruby: <%= j.ruby %>
+    3:   diamond: <%= j.diamond %>
+    4:   emerald: <%= j.sapphire %>
+  
+app/views/jewels/show.html.erb:1:in `_app_views_jewels_show_html_erb__4383171051872533994_70162244975340'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.6ms)
+Started GET "/jewels/show" for 127.0.0.1 at 2017-07-14 13:12:52 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.1ms)
+
+
