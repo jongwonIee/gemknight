@@ -29,6 +29,20 @@ class Jewel < ApplicationRecord
     end
   end
 
+  def self.reset(id)
+    jewels = Jewel.find(id)
+    jewels.ruby = 1
+    jewels.diamond = 2
+    jewels.emerald = 3
+    jewels.sapphire = 4
+    jewels.opal = 5
+    jewels.gold = 4
+    jewels.silver = 4
+    jewels.red = 1
+    jewels.black = 1
+    jewels.save
+  end
+
   def self.calculate(id, n, operator)
 
     jewels = Jewel.find(id)
