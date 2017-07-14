@@ -30,12 +30,78 @@ class Jewel < ApplicationRecord
   end
 
   def self.calculate(id, n, operator)
+
     jewels = Jewel.find(id)
+
     if n == 1 and operator == '+'
       jewels.ruby += 1
       jewels.save
     elsif n == 1 and operator == '-'
       jewels.ruby -= 1
+      jewels.save
+    end
+
+    if n.between?(2 , 3) and operator == '+'
+      jewels.diamond += 1
+      jewels.save
+    elsif n.between?(2 , 3) and operator == '-'
+      jewels.diamond -= 1
+      jewels.save
+    end
+
+    if n.between?(4 , 6) and operator == '+'
+      jewels.emerald += 1
+      jewels.save
+    elsif n.between?(4 , 6) and operator == '-'
+      jewels.emerald -= 1
+      jewels.save
+    end
+
+    if n.between?(7 , 10) and operator == '+'
+      jewels.sapphire += 1
+      jewels.save
+    elsif n.between?(7 , 10) and operator == '-'
+      jewels.sapphire -= 1
+      jewels.save
+    end
+
+    if n.between?(11 , 15) and operator == '+'
+      jewels.opal += 1
+      jewels.save
+    elsif n.between?(11 , 15) and operator == '-'
+      jewels.opal -= 1
+      jewels.save
+    end
+
+    if n.between?(16 , 19) and operator == '+'
+      jewels.gold += 1
+      jewels.save
+    elsif n.between?(16 , 19) and operator == '-'
+      jewels.gold -= 1
+      jewels.save
+    end
+
+    if n.between?(20 , 23) and operator == '+'
+      jewels.silver += 1
+      jewels.save
+    elsif n.between?(20 , 23) and operator == '-'
+      jewels.silver -= 1
+      jewels.save
+    end
+
+    if n == 24 and operator == '+'
+      jewels.red += 1
+      jewels.save
+    elsif n == 24 and operator == '-'
+      jewels.red -= 1
+      jewels.save
+    end
+
+    if n == 25 and operator == '+'
+      jewels.black += 1
+      jewels.save
+    elsif n == 25 and operator == '-'
+      jewels.black -= 1
       jewels.save
     end
   end
