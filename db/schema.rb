@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170709033459) do
+ActiveRecord::Schema.define(version: 20170714071630) do
 
   create_table "jewels", force: :cascade do |t|
     t.integer  "ruby",       null: false
@@ -24,6 +24,15 @@ ActiveRecord::Schema.define(version: 20170709033459) do
     t.integer  "black",      null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "email",           null: false
+    t.string   "password_digest", null: false
+    t.integer  "win"
+    t.integer  "lose"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
   end
 
 end

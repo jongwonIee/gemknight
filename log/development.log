@@ -608,3 +608,313 @@ Processing by JewelsController#show as HTML
 Completed 200 OK in 30ms (Views: 16.6ms | ActiveRecord: 0.8ms)
 
 
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", 3], ["updated_at", "2017-07-14 06:53:44.163478"], ["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "red" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["red", 0], ["updated_at", "2017-07-14 06:53:44.169067"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "emerald" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["emerald", 2], ["updated_at", "2017-07-14 06:53:44.172152"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", 3], ["updated_at", "2017-07-14 06:53:44.175232"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", 2], ["updated_at", "2017-07-14 06:53:44.178566"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", 2], ["updated_at", "2017-07-14 06:53:44.181307"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", 4], ["updated_at", "2017-07-14 06:53:44.183992"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", 3], ["updated_at", "2017-07-14 06:53:44.186557"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", 3], ["updated_at", "2017-07-14 06:53:44.189590"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", 2], ["updated_at", "2017-07-14 06:53:44.192773"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/jewels/show" for 127.0.0.1 at 2017-07-14 15:53:47 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-22 11:28:42 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.0.4) lib/active_record/migration.rb:573:in `check_pending!'
+activerecord (5.0.4) lib/active_record/migration.rb:549:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.4) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.4) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.4) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.4) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.8ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170714071630)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar NOT NULL, "password_digest" varchar NOT NULL, "win" integer, "lose" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170714071630"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-08-22 11:29:05 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by JewelsController#index as HTML
+  Rendering jewels/index.html.erb within layouts/application
+  Rendered jewels/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 255ms (Views: 246.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/jewels/new_game" for 127.0.0.1 at 2017-08-22 11:30:02 +0900
+Processing by JewelsController#new_game as HTML
+  Parameters: {"authenticity_token"=>"VdRZ4dvox543SrsBzJpglaKVK3Dfkyxr8u6slwf8XekYyPNsOoSaDYyT7dEhVxPluWfZDQOla5tWMidbbnCVfw=="}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "jewels" ("ruby", "diamond", "emerald", "sapphire", "opal", "gold", "silver", "red", "black", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["ruby", 1], ["diamond", 2], ["emerald", 3], ["sapphire", 4], ["opal", 5], ["gold", 4], ["silver", 4], ["red", 1], ["black", 1], ["created_at", "2017-08-22 02:30:02.111986"], ["updated_at", "2017-08-22 02:30:02.111986"]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.3ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", 1], ["updated_at", "2017-08-22 02:30:02.126015"], ["id", 1]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", 1], ["updated_at", "2017-08-22 02:30:02.132271"], ["id", 1]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", 0], ["updated_at", "2017-08-22 02:30:02.137493"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", 2], ["updated_at", "2017-08-22 02:30:02.140739"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", 1], ["updated_at", "2017-08-22 02:30:02.142819"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "black" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["black", 0], ["updated_at", "2017-08-22 02:30:02.144791"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "diamond" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["diamond", 1], ["updated_at", "2017-08-22 02:30:02.146806"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", 0], ["updated_at", "2017-08-22 02:30:02.148753"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", 0], ["updated_at", "2017-08-22 02:30:02.150813"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", 1], ["updated_at", "2017-08-22 02:30:02.152864"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 20.4ms)
+
+
+  
+NoMethodError (undefined method `show_url' for #<JewelsController:0x007fa3786caae8>):
+  
+app/controllers/jewels_controller.rb:12:in `new_game'
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/jongwon/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (120.7ms)
+Started POST "/jewels/new_game" for 127.0.0.1 at 2017-08-22 11:31:40 +0900
+Processing by JewelsController#new_game as HTML
+  Parameters: {"authenticity_token"=>"VdRZ4dvox543SrsBzJpglaKVK3Dfkyxr8u6slwf8XekYyPNsOoSaDYyT7dEhVxPluWfZDQOla5tWMidbbnCVfw=="}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "jewels" ("ruby", "diamond", "emerald", "sapphire", "opal", "gold", "silver", "red", "black", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["ruby", 1], ["diamond", 2], ["emerald", 3], ["sapphire", 4], ["opal", 5], ["gold", 4], ["silver", 4], ["red", 1], ["black", 1], ["created_at", "2017-08-22 02:31:41.011306"], ["updated_at", "2017-08-22 02:31:41.011306"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "emerald" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["emerald", 1], ["updated_at", "2017-08-22 02:31:41.016427"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", -1], ["updated_at", "2017-08-22 02:31:41.018682"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", -1], ["updated_at", "2017-08-22 02:31:41.020799"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", 0], ["updated_at", "2017-08-22 02:31:41.023106"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", -2], ["updated_at", "2017-08-22 02:31:41.025629"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", -1], ["updated_at", "2017-08-22 02:31:41.027798"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", -3], ["updated_at", "2017-08-22 02:31:41.030294"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", -1], ["updated_at", "2017-08-22 02:31:41.032538"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "ruby" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["ruby", 0], ["updated_at", "2017-08-22 02:31:41.035658"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", -2], ["updated_at", "2017-08-22 02:31:41.038626"], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/jewels/1
+Completed 302 Found in 40ms (ActiveRecord: 11.3ms)
+
+
+Started GET "/jewels/1" for 127.0.0.1 at 2017-08-22 11:31:41 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/jewels/new_game" for 127.0.0.1 at 2017-08-22 11:31:46 +0900
+Processing by JewelsController#new_game as HTML
+  Parameters: {"authenticity_token"=>"VdRZ4dvox543SrsBzJpglaKVK3Dfkyxr8u6slwf8XekYyPNsOoSaDYyT7dEhVxPluWfZDQOla5tWMidbbnCVfw=="}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "jewels" ("ruby", "diamond", "emerald", "sapphire", "opal", "gold", "silver", "red", "black", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["ruby", 1], ["diamond", 2], ["emerald", 3], ["sapphire", 4], ["opal", 5], ["gold", 4], ["silver", 4], ["red", 1], ["black", 1], ["created_at", "2017-08-22 02:31:46.778642"], ["updated_at", "2017-08-22 02:31:46.778642"]]
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "emerald" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["emerald", 0], ["updated_at", "2017-08-22 02:31:46.783364"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", -2], ["updated_at", "2017-08-22 02:31:46.785804"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", -2], ["updated_at", "2017-08-22 02:31:46.788181"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "silver" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["silver", -4], ["updated_at", "2017-08-22 02:31:46.790410"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "sapphire" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["sapphire", -3], ["updated_at", "2017-08-22 02:31:46.793069"], ["id", 1]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", -3], ["updated_at", "2017-08-22 02:31:46.795680"], ["id", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "emerald" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["emerald", -1], ["updated_at", "2017-08-22 02:31:46.798344"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "ruby" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["ruby", -1], ["updated_at", "2017-08-22 02:31:46.800560"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "gold" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["gold", -4], ["updated_at", "2017-08-22 02:31:46.802632"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "jewels" SET "opal" = ?, "updated_at" = ? WHERE "jewels"."id" = ?[0m  [["opal", -3], ["updated_at", "2017-08-22 02:31:46.804649"], ["id", 1]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/jewels/1
+Completed 302 Found in 29ms (ActiveRecord: 10.7ms)
+
+
+Started GET "/jewels/1" for 127.0.0.1 at 2017-08-22 11:31:46 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/jewels/1" for 127.0.0.1 at 2017-08-22 11:31:48 +0900
+Processing by JewelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mJewel Load (0.1ms)[0m  [1m[34mSELECT  "jewels".* FROM "jewels" WHERE "jewels"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering jewels/show.html.erb within layouts/application
+  Rendered jewels/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.1ms)
+
+

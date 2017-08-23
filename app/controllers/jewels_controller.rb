@@ -9,7 +9,7 @@ class JewelsController < ApplicationController
   def new_game
     Jewel.init
     Jewel.deal(1)
-    redirect_to :show
+    redirect_to jewel_path(1)
   end
 
 
